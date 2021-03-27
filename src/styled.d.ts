@@ -14,7 +14,9 @@ declare module 'styled-components' {
             success: string,
             danger: string,
             background: string,
-            surface: string
+            surface: string,
+            text: string,
+            default: string
         },
         spacings: {
             xs: Spacing,

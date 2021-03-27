@@ -8,7 +8,7 @@ export const Container = styled.div`
     }
 
     // Large devices (desktops, 992px and up)
-    @media (min-width: 992px) { 
+    @media (min-width: 992px) {
         margin-top: ${({ theme: { spacings: { xxl } } }) => xxl.pixel};
         margin-bottom: ${({ theme: { spacings: { xxl } } }) => xxl.pixel};
         padding: ${({ theme: { spacings: { lg } } }) => `0 ${lg.percent} 0 ${lg.percent}`};

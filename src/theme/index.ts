@@ -6,7 +6,9 @@ const theme = {
         success: '#06C677',
         danger: '#FD3232',
         background: '#F7F7F7',
-        surface: '#FFF'
+        surface: '#FFF',
+        text: '#212529',
+        default: '#ced4da'
     },
     spacings: {
         xs: { pixel: '4px', percent: '5%' },
