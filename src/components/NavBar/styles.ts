@@ -26,5 +26,3 @@ export const Brand = styled.img`
     background-color: ${({ theme: { colors: { primary } } }) => primary};
     border-radius: ${({ theme: { border } }) => border};
 `;
-
-export const BranLink = styled.a``;

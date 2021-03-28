@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 
 import { Container, Brand } from './styles';
 
@@ -12,4 +12,4 @@ const NavBar: React.FC = () => (
     </Container >
 );
 
-export default NavBar;
+export default memo(NavBar);

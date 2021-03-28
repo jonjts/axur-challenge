@@ -1,16 +1,40 @@
-import React from 'react';
+import React, { memo } from 'react';
 
-import { Container } from './styles';
+import { ButtonContainer, LinkContainer } from './styles';
 
 type Props = {
     color?: string,
-    onClick?(): void
+    onClick?(): void,
+    disabled?: boolean,
+    isLink?: boolean
 };
 
-const Button: React.FC<Props> = ({ children, color, onClick }) => (
-    <Container color={color} onClick={onClick}>
-        {children}
-    </Container>
+const Button: React.FC<Props> = ({
+    children,
+    color,
+    onClick,
+    disabled,
+    isLink
+}) => (
+    <>
+        {
+            !isLink ?
+                <ButtonContainer
+                    color={color}
+                    onClick={!disabled ? onClick : undefined}
+                    className={disabled ? 'disabled' : ''}
+                >
+                    {children}
+                </ButtonContainer>
+                :
+                <LinkContainer
+                    onClick={!disabled ? onClick : undefined}
+                    className={disabled ? 'disabled' : ''}
+                >
+                    {children}
+                </LinkContainer>
+        }
+    </>
 );
 
-export default Button;
+export default memo(Button) as React.FC<Props>;

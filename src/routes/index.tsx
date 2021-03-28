@@ -9,7 +9,8 @@ import {
 
 import DefaultLayout from '../layouts/Default';
 
-import Inspections from '../pages/Inspections';
+import Home from '../pages/Home'
+import ShowInspections from '../pages/Inspections/Show';
 import NewInspection from '../pages/Inspections/New';
 
 const AppRoute: React.FC<RouteProps> = ({ component, ...rest }) => {
@@ -27,13 +28,14 @@ const AppRoute: React.FC<RouteProps> = ({ component, ...rest }) => {
     );
 };
 
-
 const Routes = () => (
     <BrowserRouter>
         <Switch>
-            <AppRoute path="/inspections" exact component={Inspections} />
-            <AppRoute path="/inspections/new" exact component={NewInspection} />
-            <Redirect from="/" to="/inspections" />
+            <AppRoute path='/home' exact component={Home} />
+            <AppRoute path='/inspections/show/:id' exact component={ShowInspections} />
+            <AppRoute path='/inspections/show/' exact component={ShowInspections} />
+            <AppRoute path='/inspections/new' exact component={NewInspection} />
+            <Redirect from='/' to='/home' />
         </Switch>
     </BrowserRouter>
 );

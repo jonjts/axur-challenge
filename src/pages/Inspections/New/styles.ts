@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const FormGroup = styled.div`
+export const FormGroup = styled.div<{ hasError?: boolean }>`
     display: flex;
     flex-direction: column;
 
@@ -14,22 +14,12 @@ export const FormGroup = styled.div`
         }
     }
 
-    :focus {
-
+    label {
+        color: ${({ hasError, theme: { colors: { danger, text } } }) => hasError ? danger : text};
     }
-`;
 
-export const Footer = styled.div`
-    min-height: 80px;
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    margin-top: ${({ theme: { spacings: { xl } } }) => xl.pixel};
-    border-top: 1px solid ${({ theme: { colors } }) => colors.default};
-
-    a {
-        margin-right: ${({ theme: { spacings: { lg } } }) => lg.pixel};
+    input {
+        border: 1px solid ${({ hasError, theme: { colors: { danger, text } } }) => hasError ? danger : text};
+        color: ${({ hasError, theme: { colors: { danger, text } } }) => hasError ? danger : text};
     }
 `;
