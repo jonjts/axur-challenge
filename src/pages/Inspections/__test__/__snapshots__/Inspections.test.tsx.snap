@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Inspections match with snapshot 1`] = `
+<div
+  className="sc-jSgupP eplsmV"
+>
+  <h2>
+    Inspeções Recentes
+  </h2>
+  <div
+    className="sc-gKsewC gXHAJb grid"
+  />
+</div>
+`;

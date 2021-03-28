@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home match with snapshot 1`] = `
+Array [
+  <h1>
+    Home
+  </h1>,
+  <div
+    className="sc-fubCfw cqjzZl grid"
+  >
+    <div>
+      <div
+        className="sc-hKgILt hjoULL bounce"
+        onClick={[Function]}
+      >
+        <div
+          className="sc-pFZIQ fPXgLf"
+        >
+          <h3>
+            Nova Inspeção
+          </h3>
+          <p>
+            Adicione uma nova keyword para iniciar o processo de web crawling.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        className="sc-hKgILt hjoULL bounce"
+        onClick={[Function]}
+      >
+        <div
+          className="sc-pFZIQ fPXgLf"
+        >
+          <h3>
+            Consultar Inspeção
+          </h3>
+          <p>
+            Informe o id de uma inspeção já cadastrada para verificar seus resultados.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-jSgupP eplsmV"
+    >
+      <h2>
+        Inspeções Recentes
+      </h2>
+      <div
+        className="sc-gKsewC gXHAJb grid"
+      />
+    </div>
+  </div>,
+]
+`;

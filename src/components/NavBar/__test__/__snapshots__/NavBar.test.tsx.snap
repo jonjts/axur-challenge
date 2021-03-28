@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar match with snapshot 1`] = `
+<header
+  className="sc-gsTCUz iUNJdd"
+>
+  <a
+    href="/"
+    title="Ir para home"
+  >
+    <img
+      alt="Logo do app: desafio Axur"
+      className="sc-dlfnbm ebWWjJ"
+      src="brand.svg"
+    />
+  </a>
+</header>
+`;

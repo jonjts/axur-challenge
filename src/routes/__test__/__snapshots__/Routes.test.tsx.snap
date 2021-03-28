@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Routes match with snapshot 1`] = `
+Array [
+  <header
+    className="sc-gsTCUz iUNJdd"
+  >
+    <a
+      href="/"
+      title="Ir para home"
+    >
+      <img
+        alt="Logo do app: desafio Axur"
+        className="sc-dlfnbm ebWWjJ"
+        src="brand.svg"
+      />
+    </a>
+  </header>,
+  <div
+    className="sc-hKgILt euAZNc"
+  >
+    <h1>
+      Home
+    </h1>
+    <div
+      className="sc-kEjbxe irossh grid"
+    >
+      <div>
+        <div
+          className="sc-gKsewC gzXdMk bounce"
+          onClick={[Function]}
+        >
+          <div
+            className="sc-iqHYGH ipQvOR"
+          >
+            <h3>
+              Nova Inspeção
+            </h3>
+            <p>
+              Adicione uma nova keyword para iniciar o processo de web crawling.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="sc-gKsewC gzXdMk bounce"
+          onClick={[Function]}
+        >
+          <div
+            className="sc-iqHYGH ipQvOR"
+          >
+            <h3>
+              Consultar Inspeção
+            </h3>
+            <p>
+              Informe o id de uma inspeção já cadastrada para verificar seus resultados.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-fubCfw cqjzZl"
+      >
+        <h2>
+          Inspeções Recentes
+        </h2>
+        <div
+          className="sc-pFZIQ iaPyDd grid"
+        />
+      </div>
+    </div>
+  </div>,
+]
+`;

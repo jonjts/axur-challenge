@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Show Inspection match with snapshot 1`] = `
+Array [
+  <h1>
+    Ver Inspeção
+  </h1>,
+  <div
+    className="sc-eCssSg fcCMAw"
+  >
+    <div
+      className="sc-kEjbxe hbizXC"
+    >
+      <input
+        onChange={[Function]}
+        placeholder="Informe o id da inspeção"
+        value=""
+      />
+      <button
+        className="sc-dlfnbm ciWBfn"
+        onClick={[Function]}
+      >
+        Pesquisar
+      </button>
+    </div>
+    <div
+      className="sc-iqHYGH iparsx row"
+    >
+      <div
+        className="sc-crrsfI EvBBV grid"
+      />
+    </div>
+    <div
+      className="sc-jSgupP jxuqsq"
+    >
+      <button
+        className="sc-hKgILt dcQvag"
+      >
+        Voltar
+      </button>
+    </div>
+  </div>,
+]
+`;
