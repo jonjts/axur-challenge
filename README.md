@@ -1,8 +1,19 @@
-# Getting Started with Create React App
+# Axur-Challenge
+This is a react-js project to resolve the Axur challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What's this project
+Well, basicly the challenge is arround register and show inspections using an API. This is what the project do.
+
+It was not used any kind of css framework like a Bootstrap or Materialize to designer the components. The visual of Bootstrap and Materialize components was just used how a inspiration, any code of this css framework was use it.
+
+## Environment
+To the project work well, you need to create a .env file in root folder.
+
+The .env must have a ``REACT_APP_BASE_URL`` setted to be possible to comsume the API that you work for.
 
 ## Available Scripts
+
+**Remember, before run any of this scripts, run `yarn` or `npm i` to install the dependencies.**
 
 In the project directory, you can run:
 
@@ -28,16 +39,6 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
 
