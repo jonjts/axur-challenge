@@ -20,6 +20,7 @@ const Button: React.FC<Props> = ({
         {
             !isLink ?
                 <ButtonContainer
+                    data-testid='btn'
                     color={color}
                     onClick={!disabled ? onClick : undefined}
                     className={disabled ? 'disabled' : ''}
@@ -28,6 +29,7 @@ const Button: React.FC<Props> = ({
                 </ButtonContainer>
                 :
                 <LinkContainer
+                    data-testid='btn-link'
                     onClick={!disabled ? onClick : undefined}
                     className={disabled ? 'disabled' : ''}
                 >

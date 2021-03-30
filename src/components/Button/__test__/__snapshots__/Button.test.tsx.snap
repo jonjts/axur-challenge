@@ -3,5 +3,6 @@
 exports[`Button match with snapshot 1`] = `
 <button
   className="sc-gsTCUz dPeWPU"
+  data-testid="btn"
 />
 `;

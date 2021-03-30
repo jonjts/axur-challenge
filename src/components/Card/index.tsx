@@ -44,6 +44,7 @@ const Card: React.FC<Props> = ({
                     {showBackButton && (
                         <Button
                             isLink
+                            data-testid='btn-link'
                             disabled={disableButtons}
                             onClick={onBackClicked}
                         >
@@ -53,6 +54,7 @@ const Card: React.FC<Props> = ({
                     {
                         showSubmitButton && (
                             <Button
+                                data-testid='btn-submit'
                                 color={submitButtonColor}
                                 disabled={disableButtons}
                                 onClick={onSubmitClicked}

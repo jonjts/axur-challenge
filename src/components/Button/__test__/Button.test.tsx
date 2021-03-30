@@ -8,11 +8,13 @@ describe('Button', () => {
   });
 
   test('renders correctly', () => {
-    renderWithProviders(<Button />);
+    const result = renderWithProviders(<Button />);
+    expect(result.getByTestId('btn')).toBeInTheDocument();
   });
 
   test('renders correctly when link', () => {
-    renderWithProviders(<Button isLink />);
+    const result = renderWithProviders(<Button isLink />);
+    expect(result.getByTestId('btn-link')).toBeInTheDocument();
   });
 
   test('renders correctly with children', () => {

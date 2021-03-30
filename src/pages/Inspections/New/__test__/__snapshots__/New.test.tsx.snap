@@ -25,11 +25,13 @@ Array [
     >
       <button
         className="sc-dlfnbm kacgkK"
+        data-testid="btn-link"
       >
         Voltar
       </button>
       <button
         className="sc-gsTCUz dPeWPU"
+        data-testid="btn"
         onClick={[Function]}
       >
         Salvar

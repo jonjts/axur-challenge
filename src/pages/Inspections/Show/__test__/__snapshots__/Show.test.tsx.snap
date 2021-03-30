@@ -18,6 +18,7 @@ Array [
       />
       <button
         className="sc-dlfnbm ciWBfn"
+        data-testid="btn"
         onClick={[Function]}
       >
         Pesquisar
@@ -35,6 +36,7 @@ Array [
     >
       <button
         className="sc-hKgILt dcQvag"
+        data-testid="btn-link"
       >
         Voltar
       </button>

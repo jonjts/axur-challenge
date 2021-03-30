@@ -12,7 +12,9 @@ describe('Card', () => {
   });
 
   test('renders correctly with buttons', () => {
-    renderWithProviders(<Card showBackButton showSubmitButton/>);
+    const result = renderWithProviders(<Card showBackButton showSubmitButton/>);
+    expect(result.getByTestId('btn')).toBeInTheDocument();
+    expect(result.getByTestId('btn-link')).toBeInTheDocument();
   });
 
   test('renders correctly with children', () => {
