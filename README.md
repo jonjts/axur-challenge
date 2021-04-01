@@ -7,7 +7,7 @@ Well, basicly the challenge is arround register and show inspections using an AP
 It was not used any kind of css framework like a Bootstrap or Materialize to designer the components. The visual of Bootstrap and Materialize components was just used how a inspiration, any code of this css framework was use it.
 
 ## Environment
-To the project work well, you need to create a .env file in root folder.
+To the project works well, you need to create a .env file in root folder.
 
 The .env must have a ``REACT_APP_BASE_URL`` setted to be possible to comsume the API that you work for.
 
