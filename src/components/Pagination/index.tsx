@@ -14,8 +14,8 @@ const Pagination: React.FC<Props> = ({ items, onItemClicked, itemsPerPage = 10 }
 
     const [itemsToShow, setItemsToShow] = useState(new Array<string>());
     const [page, setPage] = useState(1);
-    const [disableNextPage, setDisableNextPage] = useState(false);
-    const [disabledPreviousPage, setDisablePreviousPage] = useState(false);
+    const [disableNextPage, setDisableNextPage] = useState(true);
+    const [disabledPreviousPage, setDisablePreviousPage] = useState(true);
 
     const totalPage = useMemo(() => {
         if (items.length) {
