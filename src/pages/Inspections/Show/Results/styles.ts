@@ -32,11 +32,3 @@ export const ResultList = styled.div`
         text-align: center;
     }
 `;
-
-export const ListItem = styled.div`
-        max-width: 100%;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    
-`;

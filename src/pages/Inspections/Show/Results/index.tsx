@@ -4,13 +4,13 @@ import { useTheme } from 'styled-components';
 import { InspectionResult, INSPECTION_RESULT_STATUS } from '../../../../entities';
 
 import Button from '../../../../components/Button';
+import Pagination from '../../../../components/Pagination';
 
 import {
   StatusContainer,
   Indicator,
   StatusName,
   ResultList,
-  ListItem
 } from './styles';
 
 type Props = {
@@ -54,16 +54,10 @@ const Show: React.FC<Props> = ({ result }) => {
           !result.urls.length ? (
             <p>Nenhum resultado encontrado</p>
           ) : (
-            result.urls.map(url => (
-              <ListItem key={url}>
-                <Button
-                  isLink
-                  onClick={() => handleOpenResult(url)}
-                >
-                  {url}
-                </Button>
-              </ListItem>
-            ))
+            <Pagination
+              items={result.urls}
+              onItemClicked={handleOpenResult}
+            />
           )
         }
       </ResultList>
