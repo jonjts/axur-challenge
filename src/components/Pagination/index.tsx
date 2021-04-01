@@ -68,7 +68,7 @@ const Pagination: React.FC<Props> = ({ items, onItemClicked, itemsPerPage = 10 }
                     </ListItem>
                 ))
             }
-            <Footer>
+            <Footer data-testid={`${page}-${totalPage}`} >
                 <label>{`Página ${page} de ${totalPage}`}</label>
                 <Row>
                     <Button

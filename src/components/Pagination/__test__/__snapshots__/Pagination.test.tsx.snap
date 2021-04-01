@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button match with snapshot 1`] = `
+<div
+  className="sc-hKgILt chrFSH"
+>
+  <div
+    className="sc-gKsewC kLNfSF"
+    data-testid="1-5"
+  >
+    <label>
+      Página 1 de 5
+    </label>
+    <div
+      className="sc-jSgupP fbhNlw"
+    >
+      <button
+        className="sc-gsTCUz dPeWPU"
+        data-testid="btn"
+        onClick={[Function]}
+      >
+        &lt;
+      </button>
+      <button
+        className="sc-gsTCUz dPeWPU"
+        data-testid="btn"
+        onClick={[Function]}
+      >
+        &gt;
+      </button>
+    </div>
+  </div>
+</div>
+`;
